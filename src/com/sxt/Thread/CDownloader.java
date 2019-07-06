@@ -8,6 +8,7 @@ import java.util.concurrent.*;
  * @author 智障过人的laoxie
  * @create 2019-06-21 9:51 星期五
  */
+
 public class CDownloader implements Callable<Boolean>{
 
     //远程路径
