@@ -29,7 +29,7 @@ public class IPTest {
 		System.out.println(addr.getHostName());  //输出：www.shsxt.com
 		
 		//根据ip得到InetAddress对象
-		addr = InetAddress.getByName("123.56.138.176"); 
+		addr = InetAddress.getByName("192.168.11.1");
 		System.out.println(addr.getHostAddress());  //返回 shsxt的ip:123.56.138.176
 		System.out.println(addr.getHostName());  //输出ip而不是域名。如果这个IP地 址不存在或DNS服务器不允许进行IP地址和域名的映射，
 
