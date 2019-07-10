@@ -1,19 +1,19 @@
-package com.sxt.server;
+package com.shsxt.server;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * 目标: 封装请求信息中参数转成map
+ * 目标: 封装请求信息
  * 
  * @author 裴新 QQ:3401997271
  *
  */
-public class Server05 {
+public class Server04 {
 	private ServerSocket serverSocket ;
 	public static void main(String[] args) {
-		Server05 server = new Server05();
+		Server04 server = new Server04();
 		server.start();
 	}
 	//启动服务
@@ -32,7 +32,7 @@ public class Server05 {
 			Socket client = serverSocket.accept();
 			System.out.println("一个客户端建立了连接....");
 			//获取请求协议
-			Request2 request =new Request2(client);
+			Request1 request =new Request1(client);
 			
 			Response response =new Response(client);
 			//关注了内容
@@ -43,7 +43,7 @@ public class Server05 {
 			response.print("</title>");
 			response.print("</head>");
 			response.print("<body>");
-			response.print("shsxt server终于回来了。。。。"+request.getParameter("uname"));
+			response.print("shsxt server终于回来了。。。。");
 			response.print("</body>");
 			response.print("</html>");
 			//关注了状态码

@@ -1,4 +1,4 @@
-package com.sxt.basic;
+package com.sxt.server.basic;
 
 public class Person {
 	private String name;

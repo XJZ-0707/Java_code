@@ -1,4 +1,4 @@
-package com.sxt.basic;
+package com.sxt.server.basic;
 
 import java.io.IOException;
 import java.util.ArrayList;

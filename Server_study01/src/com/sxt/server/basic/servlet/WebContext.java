@@ -1,8 +1,9 @@
-package com.sxt.basic.servlet;
+package com.sxt.server.basic.servlet;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 public class WebContext {
 	private List<Entity> entitys  =null;

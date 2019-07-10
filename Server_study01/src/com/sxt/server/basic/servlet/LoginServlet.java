@@ -1,4 +1,4 @@
-package com.sxt.basic.servlet;
+package com.sxt.server.basic.servlet;
 
 public class LoginServlet implements Servlet {
 
