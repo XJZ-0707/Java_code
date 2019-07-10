@@ -1,4 +1,4 @@
-package com.sxt.server.basic.servlet;
+package com.sxt.basic.servlet;
 
 public interface Servlet {
 	void service();

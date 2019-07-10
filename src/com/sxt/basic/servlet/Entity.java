@@ -1,4 +1,4 @@
-package com.sxt.server.basic.servlet;
+package com.sxt.basic.servlet;
 /**
  * <servlet>
   <servlet-name>login</servlet-name>
