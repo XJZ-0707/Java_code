@@ -1,4 +1,4 @@
-package com.sxt.com.sxt.server.basic.servlet;
+package com.sxt.basic.servlet;
 
 import java.util.ArrayList;
 import java.util.List;

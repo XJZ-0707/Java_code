@@ -1,19 +1,20 @@
-package com.sxt.com.shsxt.server;
+package com.sxt.server;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
- * 目标: 封装请求信息
+ * 目标: 使用ServerSocket建立与浏览器的连接，获取请求协议
  * 
  * @author 裴新 QQ:3401997271
  *
  */
-public class Server04 {
+public class Server01 {
 	private ServerSocket serverSocket ;
 	public static void main(String[] args) {
-		Server04 server = new Server04();
+		Server01 server = new Server01();
 		server.start();
 	}
 	//启动服务
@@ -32,22 +33,11 @@ public class Server04 {
 			Socket client = serverSocket.accept();
 			System.out.println("一个客户端建立了连接....");
 			//获取请求协议
-			Request1 request =new Request1(client);
-			
-			Response response =new Response(client);
-			//关注了内容
-			response.print("<html>"); 
-			response.print("<head>"); 
-			response.print("<title>");
-			response.print("服务器响应成功");
-			response.print("</title>");
-			response.print("</head>");
-			response.print("<body>");
-			response.print("shsxt server终于回来了。。。。");
-			response.print("</body>");
-			response.print("</html>");
-			//关注了状态码
-			response.pushToBrowser(200);
+			InputStream is =client.getInputStream();
+			byte[] datas = new byte[1024*1024];
+			int len = is.read(datas);
+			String requestInfo = new String(datas,0,len);
+			System.out.println(requestInfo);
 		} catch (IOException e) {
 			e.printStackTrace();
 			System.out.println("客户端错误");

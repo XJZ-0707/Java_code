@@ -1,4 +1,4 @@
-package com.sxt.com.shsxt.server;
+package com.sxt.server;
 
 import java.io.IOException;
 import java.io.InputStream;
