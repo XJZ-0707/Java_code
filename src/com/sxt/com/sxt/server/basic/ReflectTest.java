@@ -1,4 +1,4 @@
-package com.sxt.basic;
+package com.sxt.com.sxt.server.basic;
 
 import java.lang.reflect.InvocationTargetException;
 
@@ -25,7 +25,7 @@ public class ReflectTest {
 		
 		//创建对象
 		/*Iphone iphone2 =(Iphone)clz.newInstance();
-		System.out.println(iphone2);*///这种方式不推荐了
+		System.out.println(iphone2);*/
 		Iphone iphone2 =(Iphone)clz.getConstructor().newInstance();
 		System.out.println(iphone2);
 	}

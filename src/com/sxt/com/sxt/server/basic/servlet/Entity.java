@@ -1,4 +1,4 @@
-package com.sxt.basic.servlet;
+package com.sxt.com.sxt.server.basic.servlet;
 /**
  * <servlet>
   <servlet-name>login</servlet-name>
@@ -12,7 +12,7 @@ public class Entity {
 	private String name;
 	private String clz;
 	public Entity() {
-
+		// TODO Auto-generated constructor stub
 	}
 	public String getName() {
 		return name;

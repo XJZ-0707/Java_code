@@ -1,4 +1,4 @@
-package com.sxt.basic.servlet;
+package com.sxt.com.sxt.server.basic.servlet;
 
 public class RegisterServlet implements Servlet {
 
