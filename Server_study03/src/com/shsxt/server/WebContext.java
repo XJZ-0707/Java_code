@@ -1,7 +1,4 @@
-package com.com.sxt.server.basic.servlet;
-
-import com.sxt.server.basic.servlet.Entity;
-import com.sxt.server.basic.servlet.Mapping;
+package com.shsxt.server;
 
 import java.util.HashMap;
 import java.util.List;
@@ -9,13 +6,14 @@ import java.util.Map;
 import java.util.Set;
 
 public class WebContext {
-	private List<com.sxt.server.basic.servlet.Entity> entitys  =null;
-	private List<com.sxt.server.basic.servlet.Mapping> mappings =null;
+	private List<Entity> entitys  =null;
+	private List<Mapping> mappings =null;
+	
 	//key-->servlet-name  value -->servlet-class
 	private Map<String,String> entityMap =new HashMap<String,String>();
 	//key -->url-pattern value -->servlet-name
 	private Map<String,String> mappingMap =new HashMap<String,String>();
-	public WebContext(List<com.sxt.server.basic.servlet.Entity> entitys, List<com.sxt.server.basic.servlet.Mapping> mappings) {
+	public WebContext(List<Entity> entitys, List<Mapping> mappings) {
 		this.entitys = entitys;
 		this.mappings = mappings;
 		

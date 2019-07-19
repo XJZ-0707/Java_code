@@ -39,7 +39,7 @@ public class XmlTest02 {
 		//获取数据
 		com.sxt.server.basic.servlet.WebContext context = new WebContext(handler.getEntitys(),handler.getMappings());
 		//假设你输入了 /login
-		String className = context.getClz("/g");
+		String className = context.getClz("/reg");
 		Class clz =Class.forName(className);
 		com.sxt.server.basic.servlet.Servlet servlet =(Servlet)clz.getConstructor().newInstance();
 		System.out.println(servlet);
@@ -74,7 +74,8 @@ class WebHandler extends DefaultHandler{
 	@Override
 	public void characters(char[] ch, int start, int length) throws SAXException {
 		String contents = new String(ch,start,length).trim();
-		if(null!=tag) { //处理了空
+		//处理了空
+		if(null!=tag) {
 			if(isMapping) { //操作servlet-mapping
 				if(tag.equals("servlet-name")) {
 					mapping.setName(contents);
