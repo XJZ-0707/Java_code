@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Server_study03/0.iml" filepath="$PROJECT_DIR$/Server_study03/0.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Server_Study04/Server_Study04.iml" filepath="$PROJECT_DIR$/Server_Study04/Server_Study04.iml" />
       <module fileurl="file://$PROJECT_DIR$/Server_study01/Server_study01.iml" filepath="$PROJECT_DIR$/Server_study01/Server_study01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Server_study03/Server_study03.iml" filepath="$PROJECT_DIR$/Server_study03/Server_study03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Server_study03/Server_study04.iml" filepath="$PROJECT_DIR$/Server_study03/Server_study04.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestAnnotation/TestAnnotation.iml" filepath="$PROJECT_DIR$/TestAnnotation/TestAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestReflection/TestReflection.iml" filepath="$PROJECT_DIR$/TestReflection/TestReflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/src.iml" filepath="$PROJECT_DIR$/src/src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/算法图解/算法图解.iml" filepath="$PROJECT_DIR$/算法图解/算法图解.iml" />
       <module fileurl="file://$PROJECT_DIR$/设计模式/设计模式.iml" filepath="$PROJECT_DIR$/设计模式/设计模式.iml" />
     </modules>
   </component>
