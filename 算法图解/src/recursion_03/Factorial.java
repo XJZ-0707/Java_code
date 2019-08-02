@@ -1,5 +1,5 @@
 package recursion_03;
-
+/*递归函数*/
 public class Factorial {
 
     private static int fact(int x) {

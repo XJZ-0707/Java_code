@@ -3,6 +3,7 @@ package introduction_to_algorithms_01;
 public class BinarySearch {
     //二分查找
     // has to return boxed integer in order to comfort to interface defined in the book
+    //item:要查找的数字
     private static Integer binarySearch(int[] list, int item) {
         int low = 0;
         int high = list.length - 1;

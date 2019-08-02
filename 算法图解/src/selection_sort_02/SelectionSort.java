@@ -35,5 +35,6 @@ public class SelectionSort {
     public static void main(String[] args) {
         List<Integer> arr = new ArrayList<>(Arrays.asList(5, 3, 6, 2, 10));
         System.out.println(selectionSort(arr)); //[2, 3, 5, 6, 10]
+
     }
 }
