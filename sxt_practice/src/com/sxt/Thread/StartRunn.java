@@ -21,8 +21,6 @@ public class StartRunn implements Runnable {
         }
     }
 
-
-
     public static void main(String[] args) {
        /* //创建实现类对象
         StartRunn sr = new StartRunn();

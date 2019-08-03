@@ -34,7 +34,6 @@ public class LambdaTest01 {
         //lambda
         like = ()->{
             System.out.println("i like lambda3");
-
         };
     }
 }

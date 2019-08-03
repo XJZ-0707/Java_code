@@ -8,10 +8,8 @@ package com.sxt.Thread;
  */
 public class LambdaTest02 {
 
-
     public static void main(String[] args) {
         ILove love = (int a)-> {
-            System.out.println("i like lambda-->"+a);
             System.out.println("i like lambda-->"+a);
         };
         love.lambda(100);
@@ -37,7 +35,7 @@ public class LambdaTest02 {
         void lambda(int a);
     }
 
-    /*外部类*/
+ /*   *//*外部类*//*
     class Love implements ILove {
 
         @Override
@@ -45,3 +43,4 @@ public class LambdaTest02 {
             System.out.println("i like lambda-->"+a);
         }
     }
+*/

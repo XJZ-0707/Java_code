@@ -16,6 +16,7 @@ public class LambdaTest04 {
 
         }).start();
 
-        new Thread(()-> System.out.println("一边崩溃Lambda")).start();
+        new Thread(()-> System.out.println("一边崩溃Lambda"))
+                .start();
     }
 }
