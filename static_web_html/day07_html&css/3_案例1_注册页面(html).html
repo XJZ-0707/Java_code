@@ -11,7 +11,7 @@
         <table border="1" align="center" width="500">
             <tr>
                 <td><label for="username">用户名</label></td>
-                <td><input type="text" name="username" id="username"></td>
+                <td><input type="text" name="username" id="username" ></td>
             </tr>
 
             <tr>
@@ -36,31 +36,31 @@
 
             <tr>
                 <td><label>性别</label></td>
-                <td><input type="radio" name="gender" value="male"> 男
+                <td><input type="checkbox" name="gender" value="male" checked="checked"> 男
                     <input type="radio" name="gender" value="female"> 女
                 </td>
             </tr>
 
             <tr>
                 <td><label for="birthday">出生日期</label></td>
-                <td><input type="date" name="birthday" id="birthday"></td>
+                <td><input type="datetime" name="birthday" id="birthday"></td>
             </tr>
 
             <tr>
                 <td><label for="checkcode">验证码</label></td>
                 <td><input type="text" name="checkcode" id="checkcode">
-                    <img src="img/verify_code.jpg">
+                    <img src="img/verify_code.jpg" WIDTH="131" HEIGHT="20" align="center">
                 </td>
             </tr>
-
 
             <tr>
                 <td colspan="2" align="center"><input type="submit" value="注册"></td>
             </tr>
-        </table>
 
+        </table>
 
     </form>
 
 </body>
+
 </html>
