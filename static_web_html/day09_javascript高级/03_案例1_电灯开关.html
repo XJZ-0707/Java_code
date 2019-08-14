@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>电灯开关</title>
-
 </head>
 <body>
 
@@ -29,21 +28,18 @@
 
     //2.绑定单击事件
     light.onclick = function(){
-        if(flag){//判断如果灯是开的，则灭掉
+        if(flag){//判断如果灯是开的，则灭掉,第一次时flag是false，所以执行是是else，之后的flag变为true，所以执行第一步操作
             light.src = "img/off.gif";
             flag = false;
 
         }else{
             //如果灯是灭的，则打开
-
             light.src = "img/on.gif";
             flag = true;
         }
 
 
     }
-    
-    
 
 </script>
 </body>

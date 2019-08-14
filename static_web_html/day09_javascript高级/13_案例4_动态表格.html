@@ -148,7 +148,7 @@
 
     //删除方法
     function delTr(obj){
-        var table = obj.parentNode.parentNode.parentNode;
+        var table = obj.parentNode.parentNode.parentNode;/*removeChild():通过父节点删除子节点*/
         var tr = obj.parentNode.parentNode;
 
         table.removeChild(tr);
