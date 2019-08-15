@@ -1,5 +1,6 @@
 package com.sxt.udp;
 //javabean 封装数据
+@SuppressWarnings("all")
 public class Employee implements java.io.Serializable{
 	private transient String name; //该数据不需要序列化
 	private double salary;
