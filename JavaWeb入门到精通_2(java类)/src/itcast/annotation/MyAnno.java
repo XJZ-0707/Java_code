@@ -1,6 +1,5 @@
 package itcast.annotation;
 
-import com.sun.corba.se.spi.orbutil.threadpool.Work;
 
 public @interface MyAnno {
 

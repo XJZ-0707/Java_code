@@ -4,7 +4,6 @@ package itcast.annotation.demo;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
@@ -32,7 +31,7 @@ public class TestCheck {
             if(method.isAnnotationPresent(Check.class)){
                 //5.有，执行
                 try {
-                    method.invoke(c);
+                    method.invoke(c);//执行 invoke(调用)
                 } catch (Exception e) {
                     //6.捕获异常
 
@@ -40,7 +39,7 @@ public class TestCheck {
                     number ++;
 
                     bw.write(method.getName()+ " 方法出异常了");
-                    bw.newLine();
+                    bw.newLine();/*换行*/
                     bw.write("异常的名称:" + e.getCause().getClass().getSimpleName());
                     bw.newLine();
                     bw.write("异常的原因:"+e.getCause().getMessage());
@@ -53,10 +52,8 @@ public class TestCheck {
         }
 
         bw.write("本次测试一共出现 "+number+" 次异常");
-
         bw.flush();
         bw.close();
-
 
 
     }

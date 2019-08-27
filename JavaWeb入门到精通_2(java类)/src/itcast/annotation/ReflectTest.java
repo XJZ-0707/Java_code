@@ -1,15 +1,13 @@
 package itcast.annotation;
 
-import java.io.InputStream;
 import java.lang.reflect.Method;
-import java.util.Properties;
 
 /**
  * 框架类
  */
 
 
-@Pro(className = "cn.itcast.annotation.Demo1",methodName = "show")
+@Pro(className = "itcast.annotation.Demo1",methodName = "show")
 public class ReflectTest {
     public static void main(String[] args) throws Exception {
 
@@ -42,9 +40,6 @@ public class ReflectTest {
         String methodName = an.methodName();
         System.out.println(className);
         System.out.println(methodName);
-
-
-
 
 
         //3.加载该类进内存

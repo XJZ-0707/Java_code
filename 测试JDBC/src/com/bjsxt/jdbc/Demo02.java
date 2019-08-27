@@ -19,7 +19,7 @@ public class Demo02 {
 			Class.forName("com.mysql.jdbc.Driver");
 			//建立连接(连接对象内部其实包含了Socket对象，是一个远程的连接。比较耗时！这是Connection对象管理的一个要点！)
 			//真正开发中，为了提高效率，都会使用连接池来管理连接对象！
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","12345678");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","root");
 			
 			stmt = conn.createStatement();
 //			String name = "赵六";
