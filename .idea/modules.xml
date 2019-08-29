@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/TestAnnotation/TestAnnotation.iml" filepath="$PROJECT_DIR$/TestAnnotation/TestAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestReflection/TestReflection.iml" filepath="$PROJECT_DIR$/TestReflection/TestReflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/../day05_JDBC/代码/itcast/day04_jdbc/day04_jdbc.iml" filepath="$PROJECT_DIR$/../day05_JDBC/代码/itcast/day04_jdbc/day04_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day05_dataSource_jdbcTemplate/day05_dataSource_jdbcTemplate.iml" filepath="$PROJECT_DIR$/../day05_dataSource_jdbcTemplate/day05_dataSource_jdbcTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/java_尚学堂/java_尚学堂.iml" filepath="$PROJECT_DIR$/java_尚学堂/java_尚学堂.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaweb_html/javaweb_html.iml" filepath="$PROJECT_DIR$/javaweb_html/javaweb_html.iml" />
       <module fileurl="file://$PROJECT_DIR$/测试JDBC/测试JDBC.iml" filepath="$PROJECT_DIR$/测试JDBC/测试JDBC.iml" />
